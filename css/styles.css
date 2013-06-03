@@ -1,0 +1,166 @@
+@import url(reset.css);
+
+/*-----------------------------
+    Fonts
+-----------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Economica);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,400);
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://fonts.googleapis.com/css?family=Lato:700);
+
+/*-----------------------------
+    Keyframe Animations
+-----------------------------*/
+
+@keyframes fade-in  {
+  from {opacity: 0;}
+  to {opacity: 1;}}
+
+@-webkit-keyframes fade-in  {
+  from {opacity: 0;}
+  to {opacity: 1;}}
+
+/*-----------------------------
+    Base
+-----------------------------*/
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;}
+  
+html {
+  background: #282827;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  font-size: 100%;}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: url(../images/halfscreen.jpg) no-repeat center center;
+  background-size: cover;
+  display: table;
+  margin: 0;
+  padding: 3rem 1.25rem;
+  -webkit-animation: fade-in 1000ms ease-in-out;
+  animation: fade-in 1000ms ease-in-out;}
+
+/*-----------------------------
+		Main
+-----------------------------*/
+
+main {
+  display: table-cell;
+  text-align: center;
+  font-size: 100%;
+  vertical-align: middle;}
+
+.logo {
+  border: solid white .5rem;
+  color: white;
+  height: 8.75rem;
+  margin: 0 auto;
+  width: 8.75rem;
+  display: block;
+  font: 400 3.3rem 'Economica', sans-serif;
+  padding: 1.85rem;
+  -webkit-animation: fade-in 2s ease-in;
+  animation: fade-in 2s ease-in;}
+
+h1 {
+  color: white;
+  font: 100 2.5rem/1.1 'Alegreya', serif;
+  margin: 3rem 0 1.25rem 0;}
+
+.subhead {
+  font: 400 1.1rem/1.4 'Lato', sans-serif;
+  color: darkgray;
+  display: inline-block;
+  max-width: 50rem;}
+
+/*-----------------------------
+		Buttons
+-----------------------------*/
+
+.buttons {
+  height: 3rem;
+  margin: 4rem auto;
+  display: table;}
+
+a {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;}
+
+.submit {
+  background-color: rgba(139, 198, 172, .85);
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 11rem;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;}
+
+  .submit:hover {
+    color: rgba(139, 198, 172, 1);
+    background-color: white;}
+
+.join {
+  background-color: rgba(139, 198, 172, 1);
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 11rem;
+  -webkit-transition: background-color .3s ease-in-out, color .3s ease-in-out;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;}
+
+  .join:hover {
+    color: rgba(139, 198, 172, 1);
+    background-color: white;}
+
+/*-----------------------------
+		Footer
+-----------------------------*/
+
+p {
+  max-width: 22rem;
+  display: inline-block;
+  color: darkgray;
+  font: 400 .85rem/1.3 'Lato', sans-serif;}
+
+p a {
+  color: white;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;}
+
+  p a:hover {
+  color: rgba(139, 198, 172, 1);}
+
+::selection {
+  background: transparent; color: rgba(139, 198, 172, 1);}
+
+::-moz-selection  {
+  background: transparent; color: rgba(139, 198, 172, 1);}
+  
+/*-----------------------------
+		Media Queries
+-----------------------------*/
+
+@media only screen and (max-width:48em) { /* below 768px */
+
+	html {font-size: 90%;}
+
+}
+
+@media only screen and (max-width:20em) { /* below 320px */
+
+	h1 {font-size: 2rem;}
+  body {background: none;}
+  .buttons {display: block; margin: 2rem auto 5rem auto;}
+  .submit, .join {display: block; font-weight: 700; line-height: 2.5rem; border-radius: 3px; margin-bottom: 1rem; width: 100%;}
+}
