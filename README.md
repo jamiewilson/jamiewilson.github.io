@@ -1,4 +1,4 @@
-**Half** - http://jamiewilson.github.io/half/
+**Half** - http://jamiewilson.github.io
 
 ====
 
