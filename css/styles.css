@@ -202,5 +202,5 @@ li {
 	h1 {font-size: 2rem;}
   body {background: none;}
   .buttons {display: block; margin: 2rem auto 5rem auto;}
-  .submit, .join {display: block; font-weight: 700; line-height: 2.5rem; border-radius: 3px; margin-bottom: 1rem; width: 100%;}
+  a.submit, a.join {display: block; font-weight: 700; line-height: 2.5rem; border-radius: 3px; margin-bottom: 1rem; width: 100%;}
 }
