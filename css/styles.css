@@ -161,6 +161,7 @@ p a {
 .footer {
   color: #696969;
   font: 400 .7rem 'Lato', sans-serif;
+  padding-bottom: 2rem;
   text-align: center;}
     
 ul {
