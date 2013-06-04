@@ -38,11 +38,12 @@ html {
 body {
   -webkit-animation: fade-in 1000ms ease-in-out;
   animation: fade-in 1000ms ease-in-out;
-  background-size: cover;
   background: url(../images/halfscreen.jpg) no-repeat center center;
+  background-size: cover;
   height: 100%;
   margin: 0;
-  padding: 3rem 1.25rem;}
+  padding: 3rem 1.25rem;
+  position: relative;}
 
 /*-----------------------------
 		Wrapper
