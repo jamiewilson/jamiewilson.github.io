@@ -124,7 +124,7 @@ a {
     background-color: white;}
 
 /*-----------------------------
-		Footer
+		Disclaimer
 -----------------------------*/
 
 p {
@@ -146,6 +146,43 @@ p a {
 
 ::-moz-selection  {
   background: transparent; color: rgba(139, 198, 172, 1);}
+  
+/*-----------------------------
+		Footer
+-----------------------------*/
+
+.footer {
+    font: 400 .7rem 'Lato', sans-serif;
+    width: 20rem;
+    margin-left: -10rem;
+    color: dimgray;
+    position: fixed;
+    bottom: 2rem;
+    text-align: center;
+    left: 50%;}
+    
+ul {
+	list-style: none;}
+	
+li {
+	display: inline;}
+	
+li:after {
+	content: "/";
+  padding: 0 .75rem;}
+  
+li:last-child:after {
+	content: "";
+	padding: 0;}
+	
+li a {
+	color: dimgray;
+	text-decoration: none;}
+	
+	li a:hover {
+		color: white;
+    -webkit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;}}
   
 /*-----------------------------
 		Media Queries
