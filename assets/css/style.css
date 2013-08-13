@@ -37,8 +37,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  -webkit-font-smoothing: antialiased; }
+  padding: 0; }
 
 html {
   background: #2E464E;
@@ -58,7 +57,8 @@ header {
   text-align: center;
   max-width: 45rem;
   animation: fade-in 250ms ease-in;
-  -webkit-animation: fade-in 2s ease; }
+  -webkit-animation: fade-in 2s ease;
+  -webkit-font-smoothing: antialiased; }
 
 h1 {
   color: #F18360;
@@ -108,6 +108,7 @@ section {
   width: 100%; }
 
 section p {
+  opacity: .5;
   font: 100 1.25rem "VerbCondExtraLight"; }
 
 .browser {
@@ -163,23 +164,15 @@ button:hover span {
 		Media Queries
 -----------------------------*/
 @media only screen and (max-width: 320px) {
-  * {
-    -webkit-font-smoothing: subpixel-antialiased; }
-
   p {
-    font: 100 1rem/1.4 "VerbCondExtraLight"; }
+    font: 100 1rem/1.4 "VerbCondExtraLight"; } }
+@media only screen and (max-width: 650px) {
+  p {
+    font: 100 1.25rem "VerbCondExtraLight";
+    -webkit-font-smoothing: subpixel-antialiased; }
 
   p span {
     display: inline; }
 
   section p {
     font: 100 1rem "VerbCondExtraLight"; } }
-@media only screen and (min-width: 321px) and (max-width: 650px) {
-  * {
-    -webkit-font-smoothing: subpixel-antialiased; }
-
-  p {
-    font: 100 1.25rem "VerbCondExtraLight"; }
-
-  p span {
-    display: inline; } }
