@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Alegreya:400italic);
 @import url(http://fonts.googleapis.com/css?family=Alegreya+SC);
 /*-----------------------------
-		Animation
+    Animation
 -----------------------------*/
 @keyframes fade-in {
   from {
@@ -32,7 +32,7 @@
     -webkit-transform: translateY(0px); } }
 
 /*-----------------------------
-		Base Styles
+    Base Styles
 -----------------------------*/
 * {
   box-sizing: border-box;
@@ -50,7 +50,7 @@ body {
   max-width: 70rem; }
 
 /*-----------------------------
-		Header
+    Header
 -----------------------------*/
 header {
   margin: 8% auto;
@@ -97,7 +97,7 @@ p span {
   margin: 4.5rem auto 3rem auto; }
 
 /*-----------------------------
-		Websites
+    Websites
 -----------------------------*/
 section {
   display: inline-block;
@@ -153,7 +153,7 @@ button:hover span {
   max-width: 100%; }
 
 /*-----------------------------
-		Fonts
+    Fonts
 -----------------------------*/
 @font-face {
   font-family: 'VerbCondExtralight';
@@ -161,11 +161,12 @@ button:hover span {
   src: url(../fonts/VerbCondExtralight.eot?#iefix) format("embedded-opentype"), url(../fonts/VerbCondExtralight.woff) format("woff"), url(../fonts/VerbCondExtralight.ttf) format("truetype"); }
 
 /*-----------------------------
-		Media Queries
+    Media Queries
 -----------------------------*/
 @media only screen and (max-width: 320px) {
   p {
     font: 100 1rem/1.4 "VerbCondExtraLight"; } }
+    
 @media only screen and (max-width: 650px) {
   p {
     font: 100 1.25rem "VerbCondExtraLight";
