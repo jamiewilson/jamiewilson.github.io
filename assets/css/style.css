@@ -1,91 +1,101 @@
 @import url(http://fonts.googleapis.com/css?family=Alegreya:400italic);
 @import url(http://fonts.googleapis.com/css?family=Alegreya+SC);
+
 /*-----------------------------
     Animation
 -----------------------------*/
 @keyframes fade-in {
-  from {
-    opacity: 0; }
-
-  to {
-    opacity: 1; } }
+  from {opacity: 0;}
+  to {opacity: 1;}}
 
 @-webkit-keyframes fade-in {
-  from {
-    opacity: 0; }
-
-  to {
-    opacity: 1; } }
+  from {opacity: 0;}
+  to {opacity: 1;}}
 
 @keyframes slideDown {
-  from {
-    transform: translateY(-50px); }
-
-  to {
-    transform: translateY(0px); } }
+  from {transform: translateY(-50px);}
+  to {transform: translateY(0px);}}
 
 @-webkit-keyframes slideDown {
-  from {
-    -webkit-transform: translateY(-50px); }
-
-  to {
-    -webkit-transform: translateY(0px); } }
+  from {-webkit-transform: translateY(-50px);}
+  to {-webkit-transform: translateY(0px);}}
 
 /*-----------------------------
     Base Styles
 -----------------------------*/
-* {
+*
+  {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  }
 
-html {
+html
+  {
   background: #2E464E;
   font-size: 100%;
   height: 100%;
-  padding: 3%; }
+  padding: 3%;
+  }
 
-body {
+body
+  {
   margin: 0 auto;
-  max-width: 70rem; }
+  max-width: 70rem;
+  }
 
 /*-----------------------------
     Header
 -----------------------------*/
-header {
+header 
+  {
   margin: 8% auto;
   text-align: center;
   max-width: 45rem;
   animation: fade-in 250ms ease-in;
   -webkit-animation: fade-in 2s ease;
-  -webkit-font-smoothing: antialiased; }
+  }
 
-h1 {
+h1
+  {
   color: #F18360;
   font: 400 1.75em/1.1 "Alegreya SC", serif;
-  letter-spacing: .1rem; }
+  letter-spacing: .1rem;
+  -webkit-font-smoothing: antialiased;
+  }
 
-.italic {
+.italic
+  {
   font: italic 400 1.75rem "Alegreya", serif;
-  margin-right: .1rem; }
+  margin-right: .1rem;
+  }
 
-p {
+p
+  {
   color: rgba(255, 255, 255, 0.3);
-  font: 100 1.75rem "VerbCondExtraLight"; }
+  font: 100 1.75rem "VerbCondExtraLight";
+  }
 
-p a {
+p a
+  {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
   transition: color 500ms ease;
-  -webkit-transition: color 500ms ease; }
+  -webkit-transition: color 500ms ease;
+  }
 
-p a:hover {
-  color: white; }
+p a:hover
+  {
+  color: white;
+  }
 
-p span {
-  display: block; }
+p span
+  {
+  display: block;
+  }
 
-.arrow {
+.arrow
+  {
   background: url(../images/arrow.svg);
   background-size: contain;
   height: 2rem;
@@ -94,38 +104,50 @@ p span {
   display: block;
   animation: slideDown 2s ease;
   -webkit-animation: slideDown 2s ease;
-  margin: 4.5rem auto 3rem auto; }
+  margin: 4.5rem auto 3rem auto;
+  }
 
 /*-----------------------------
     Websites
 -----------------------------*/
-section {
+section
+  {
   display: inline-block;
   margin-bottom: 3rem;
   text-align: center;
   animation: fade-in 2s ease-in;
   -webkit-animation: fade-in 3s ease;
-  width: 100%; }
+  width: 100%;
+  }
 
-section p {
+section p
+  {
   opacity: .5;
-  font: 100 1.25rem "VerbCondExtraLight"; }
+  font: 100 1.25rem "VerbCondExtraLight";
+  }
 
-.browser {
+.browser
+  {
   background: #28373A;
-  border-radius: 5px; }
+  border-radius: 5px;
+  }
 
-.chrome {
+.chrome
+  {
   text-align: left;
-  padding: 15px; }
+  padding: 15px;
+  }
 
-button {
+button
+  {
   border: none;
   width: 50px;
   height: 10px;
-  background: url(../images/dots.svg); }
+  background: url(../images/dots.svg);
+  }
 
-button span {
+button span
+  {
   color: white;
   font: 100 .75rem/1 "VerbCondExtraLight";
   left: 60px;
@@ -133,24 +155,43 @@ button span {
   position: relative;
   top: -1px;
   transition: opacity 750ms ease;
-  -webkit-transition: opacity 750ms ease; }
+  -webkit-transition: opacity 750ms ease;
+  }
 
-button:hover span {
-  opacity: .75; }
+button:hover span
+  {
+  opacity: .75;
+  }
 
-.navicon {
+.navicon
+  {
   width: 20px;
   height: 13px;
   background: url(../images/navicon.svg) no-repeat;
   margin-top: 2px;
-  margin-left: 15px; }
+  margin-left: 15px;
+  }
 
-.pull-right {
-  float: right; }
+.pull-right
+  {
+  float: right;
+  }
 
-.site {
+.site
+  {
   margin-bottom: 20px;
-  max-width: 100%; }
+  max-width: 100%;
+  }
+
+
+/*-----------------------------
+  Contact
+-----------------------------*/
+
+#contact a
+  {
+  color: #F18360;
+  }    
 
 /*-----------------------------
     Fonts
@@ -164,16 +205,12 @@ button:hover span {
     Media Queries
 -----------------------------*/
 @media only screen and (max-width: 320px) {
-  p {
-    font: 100 1rem/1.4 "VerbCondExtraLight"; } }
+  p {font: 100 1rem/1.4 "VerbCondExtraLight";}}
     
 @media only screen and (max-width: 650px) {
-  p {
-    font: 100 1.25rem "VerbCondExtraLight";
-    -webkit-font-smoothing: subpixel-antialiased; }
+  p {font: 100 1.25rem "VerbCondExtraLight";}
+  p span {display: inline;}
+  section p {font: 100 1rem "VerbCondExtraLight";}}
 
-  p span {
-    display: inline; }
 
-  section p {
-    font: 100 1rem "VerbCondExtraLight"; } }
+
