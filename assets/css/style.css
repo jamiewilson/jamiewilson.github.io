@@ -122,7 +122,6 @@ section
 
 section p
   {
-  opacity: .5;
   font: 100 1.25rem "VerbCondExtraLight";
   }
 
@@ -187,6 +186,11 @@ button:hover span
 /*-----------------------------
   Contact
 -----------------------------*/
+
+#contact p
+  {
+  color: rgba(255, 255, 255, 0.5);
+  }
 
 #contact a
   {
