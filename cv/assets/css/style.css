@@ -103,6 +103,50 @@ li {
     text-decoration: none;
 }
 
+
+/*-----------------------------
+    Portfolio
+-----------------------------*/
+
+.portfolio {
+    width: 100%;
+}
+
+.nine-eighty {
+    max-width: 980px;
+    margin: 0 auto;
+    display: block;
+}
+
+.portfolio h1 {
+    font-size: 1.3rem;
+    margin: 8% auto;
+    max-width: 74rem;
+    text-align: center;
+    padding: 0 5%;
+    color: #2E464D;
+    font-family: "VerbCondExtralight";
+}
+
+.portfolio h1 a {
+    color: #F18260;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto 2% auto;
+    max-width: 1920px;
+}
+
+.next {
+    text-align: center;
+    color: #F18260;
+    display: block;
+    margin: 8% 0;
+}      
+
+
 /*-----------------------------
     Media Queries
 -----------------------------*/
