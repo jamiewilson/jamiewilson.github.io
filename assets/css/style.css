@@ -118,18 +118,15 @@ section
   animation: fade-in 2s ease-in;
   -webkit-animation: fade-in 3s ease;
   width: 100%;
-  transition: transform 250ms cubic-bezier(.25, -1.5, .5, 2);
-  -webkit-transition: -webkit-transform 250ms cubic-bezier(.25, -1.5, .5, 2);
-  -ms-transition: -ms-transform 250ms cubic-bezier(.25, -1.5, .5, 2);
-
-
+  transition: -webkit-transform 300ms cubic-bezier(.65, -0.65, .75, 2);
+  transition: transform 300ms cubic-bezier(.65, -0.65, .75, 2);
   }
 
 section:hover
   {
-  transform: scale(1.05);
-  -webkit-transform: scale(1.025);
-  -ms-transform: scale(1.05);
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
 
   }
 
