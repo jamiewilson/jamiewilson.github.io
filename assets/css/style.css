@@ -47,7 +47,7 @@ body
 /*-----------------------------
     Header
 -----------------------------*/
-header 
+header
   {
   margin: 8% auto;
   text-align: center;
@@ -173,11 +173,6 @@ button:hover span
   opacity: .75;
   }
 
-button:active
-  {
-  
-  }
-
 .navicon
   {
   width: 20px;
@@ -211,7 +206,7 @@ button:active
 #contact a
   {
   color: #F18360;
-  }    
+  }
 
 /*-----------------------------
     Fonts
@@ -226,7 +221,7 @@ button:active
 -----------------------------*/
 @media only screen and (max-width: 320px) {
   p {font: 100 1rem/1.4 "VerbCondExtraLight";}}
-    
+
 @media only screen and (max-width: 650px) {
   p {font: 100 1.25rem "VerbCondExtraLight";}
   p span {display: inline;}
