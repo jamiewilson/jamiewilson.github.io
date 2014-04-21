@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Norwester v2
 layout: post
 tags: [Free, Font]
