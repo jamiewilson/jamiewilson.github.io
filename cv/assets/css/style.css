@@ -58,7 +58,7 @@ section {
 }
 
 header h1 {
-    transition:  -webkit-transform 250ms cubic-bezier(1,-1.5,0, 1.3);
+    transition: -webkit-transform 250ms cubic-bezier(1,-1.5,0, 1.3);
 }
 
 header h1:hover  {
@@ -67,7 +67,6 @@ header h1:hover  {
 
 header strong {
     font-family: "VerbBlack";
-    -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -75,7 +74,6 @@ h2,
 h3 {
     font: 600 2.4rem/1.4 "VerbBlack";
     color: #F18260;
-    -webkit-font-smoothing: antialiased;
 }
 
 h2,
@@ -100,7 +98,6 @@ h2 + p {
 
 p strong {
     font-family: "VerbBlack";
-    -webkit-font-smoothing: antialiased;
 }
 
 li {
