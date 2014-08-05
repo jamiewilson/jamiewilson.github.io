@@ -1,4 +1,18 @@
 /*-----------------------------
+    Fonts
+-----------------------------*/
+
+@font-face {
+  font-family: 'VerbCondExtralight';
+  src: url(../fonts/VerbCondExtralight.eot);
+  src: url(../fonts/VerbCondExtralight.eot?#iefix) format("embedded-opentype"), url(../fonts/VerbCondExtralight.woff) format("woff"), url(../fonts/VerbCondExtralight.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'VerbBlack';
+  src: url(../fonts/VerbBlack.eot);
+  src: url(../fonts/VerbBlack.eot?#iefix) format("embedded-opentype"), url(../fonts/VerbBlack.woff) format("woff"), url(../fonts/VerbBlack.ttf) format("truetype"); }
+
+/*-----------------------------
     Animation
 -----------------------------*/
 
@@ -155,17 +169,3 @@ img {
     html { font-size: 70%; }
     li { padding: 0;}
 }
-
-/*-----------------------------
-    Fonts
------------------------------*/
-
-@font-face {
-  font-family: 'VerbCondExtralight';
-  src: url(../fonts/VerbCondExtralight.eot);
-  src: url(../fonts/VerbCondExtralight.eot?#iefix) format("embedded-opentype"), url(../fonts/VerbCondExtralight.woff) format("woff"), url(../fonts/VerbCondExtralight.ttf) format("truetype"); }
-
-@font-face {
-  font-family: 'VerbBlack';
-  src: url(../fonts/VerbBlack.eot);
-  src: url(../fonts/VerbBlack.eot?#iefix) format("embedded-opentype"), url(../fonts/VerbBlack.woff) format("woff"), url(../fonts/VerbBlack.ttf) format("truetype"); }
