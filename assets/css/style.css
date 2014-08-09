@@ -107,7 +107,7 @@ h1
   animation: slideDown 700ms cubic-bezier(0.5, -0.75, 0.25, 1.5);
   }
 
-header a
+a
   {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
@@ -115,9 +115,9 @@ header a
   -webkit-transition: color 500ms ease;
   }
 
-header a:hover
+a:hover
   {
-  color: white;
+  color: rgba(255, 255, 255, 1);
   }
 
 .arrow
@@ -148,9 +148,12 @@ section
   transition: transform 300ms cubic-bezier(.65, -0.65, .75, 2);
   }
 
-section p
+section p,
+section a
   {
   font: 100 1.25rem "VerbCondExtraLight";
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: underline;
   }
 
 .browser
@@ -219,6 +222,7 @@ button:hover span
 #contact p
   {
   color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
   }
 
 #contact a
