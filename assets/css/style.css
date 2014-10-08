@@ -606,6 +606,14 @@ h1
   animation: slideDown 700ms cubic-bezier(0.5, -0.75, 0.25, 1.5);
   }
 
+.learn-more {
+  font: 100 1rem "Source Sans Pro";
+  margin-top: 2rem;
+  display: block;
+  -webkit-animation: slideUp 700ms ease-in-out;
+  animation: slideUp 700ms ease-in-out;
+  }
+
 a
   {
   text-decoration: none;
