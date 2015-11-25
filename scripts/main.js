@@ -4,9 +4,3 @@
 // Running fitter-happier-text.js on .header-description elem
 var nodes = document.querySelectorAll('[data-fitter-happier-text]');
 fitterHappierText(nodes);
-
-// Show Support CTA after 5 seconds
-window.setTimeout(function(){
-  var elem = document.getElementById("js-support-cta");
-  elem.classList.add('in');
-}, 5000);
