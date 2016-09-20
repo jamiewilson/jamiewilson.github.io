@@ -13,8 +13,20 @@
     <priority>1.0</priority>
   </url>
 
-  <url>
+<url>
     <loc>http://jamiewilson.io/norwester</loc>
+    <changefreq>yearly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>http://jamiewilson.io/darkside</loc>
+    <changefreq>yearly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>http://jamiewilson.io/corpus</loc>
     <changefreq>yearly</changefreq>
     <priority>1.0</priority>
   </url>
