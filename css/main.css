@@ -39,7 +39,11 @@ a:hover {
   body { font-size: 1.125rem; }
 }
 
-::selection,
+::selection {
+  background: #F18260;
+  color: white;
+}
+
 ::-moz-selection {
   background: #F18260;
   color: white;
