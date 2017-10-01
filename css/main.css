@@ -35,22 +35,12 @@ a:hover {
   border: none;
 }
 
-/*@media (max-width: 1400px) {
-  h1 { font-size: 250%; }
-  body { font-size: 1.5rem; }
-}
-
 @media (max-width: 500px) {
-  h1 { font-size: 225%; }
   body { font-size: 1.125rem; }
 }
-*/
-::-moz-selection {
-  background: #F18260;
-  color: white;
-}
 
-::selection {
+::selection,
+::-moz-selection {
   background: #F18260;
   color: white;
 }
