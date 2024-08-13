@@ -1,49 +1,80 @@
 :root {
-  --accent: #f18260;
+  --blue: #0045ff;
+  --yellow: #f1d960;
   --black: #333;
-  --grey: #ccc;
-  --system-fonts: system, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", Helvetica, "Helvetica Neue", sans-serif;
-}
+  --white: #fff;
+  --system-fonts: system-ui, sans-serif;
 
 body {
-  margin: 0 auto;
-  max-width: 50ch;
-  padding: 5%;
-  color: var(--black);
+  padding: 0;
+  margin: 0;
+  color: var(--white);
+  background: var(--blue);
   font-family: var(--system-fonts);
-  font-size: 1.5rem;
-  line-height: 1.6;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+article {
+  padding: 5%;
+
+  @media (max-width: 800px) {
+    font-size: 1.2rem;
+  }
+}
+
+header {
+  line-height: 1.2;
+
 }
 
 h1 {
-  font-size: 175%;
+  font-size: 300%;
+  margin-block-start: 0;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 150%;
 }
 
 a {
   color: inherit;
   position: relative;
   text-decoration: none;
-  border-bottom: 2px solid var(--grey);
+  border-bottom: 2px solid;
 }
 
 a:hover {
-  border-color: var(--accent);
+  border-color: var(--yellow);
 }
 
-.easter-egg-link {
-  border: none;
+ul {
+  line-height: 1.8;
 }
 
-@media (max-width: 500px) {
-  body { font-size: 1.125rem; }
+li {
+  padding-inline-start: 1ch;
+  list-style-type: "💪";
+}
+
+li.deprecated {
+  list-style-type: "☠️";
+}
+
+footer {
+  margin-top: 5rem;
+  font-family: var(--system-fonts);
+  font-style: italic;
 }
 
 ::selection {
-  background: #F18260;
-  color: white;
+  background: var(--yellow);
+  color: var(--blue);
 }
 
 ::-moz-selection {
-  background: #F18260;
-  color: white;
+  background: var(--yellow);
+  color: var(--blue);
 }
