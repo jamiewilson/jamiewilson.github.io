@@ -69,6 +69,10 @@ footer {
   font-style: italic;
 }
 
+footer a {
+  border: none;
+}
+
 ::selection {
   background: var(--yellow);
   color: var(--blue);
